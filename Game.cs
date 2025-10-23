@@ -33,23 +33,23 @@ namespace Labb2_ConsolePong
             if (Input.IsPressed(ConsoleKey.UpArrow))
             {
                 //Flytta spelare 1 uppåt
-                Odd.Move(height);
+                Odd.Move(1);
             }
             if (Input.IsPressed(ConsoleKey.DownArrow))
             {
                 //Flytta spelare 1 nedåt
-                Odd.Move(height);
+                Odd.Move(-1);
             }
 
             if (Input.IsPressed(ConsoleKey.W))
             {
                 //Flytta spelare 2 uppåt
-                Odd.Move(height);
+                Odd.Move(1);
             }
             if (Input.IsPressed(ConsoleKey.S))
             {
                 //Flytta spelare 2 nedåt
-                Odd.Move(height);
+                Odd.Move(-1);
             }
 
 
