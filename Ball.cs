@@ -23,9 +23,14 @@ namespace Labb2_ConsolePong
 
         void Move()
         {
+            x += xVelocity;
+            y += yVelocity;
+        }
 
-
-
+        void Draw()
+        {
+            Console.SetCursorPosition(x, y);
+            Console.Write("|");
         }
     }
 }
